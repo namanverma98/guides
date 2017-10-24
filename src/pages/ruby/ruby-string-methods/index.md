@@ -117,3 +117,12 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     ```ruby
     "15".to_i #=> 15 # integer
     ```
+    
+### Empty?:
+
+*   The `.empty?` method returns true if str has a length of zero.
+    ```ruby
+    
+    "hello".empty? #=> false
+    " ".empty? #=> false
+    "".empty? #=> true
